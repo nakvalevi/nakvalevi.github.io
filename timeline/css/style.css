@@ -45,7 +45,7 @@
   -webkit-writing-mode: tb-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: tb-rl;
-  color: #9600C6;
+  color: #BF463B;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   cursor: default;
@@ -64,7 +64,7 @@
 .timeline-main {
   position: relative;
   width: 100%;
-  border-left: 1px solid #9600C6;
+  border-left: 1px solid #BF463B;
 }
 
 .timeline-main:before {
@@ -77,7 +77,7 @@
   height: 9px;
   border-radius: 50%;
   background: #fff;
-  border: 1px solid #9600C6;
+  border: 1px solid #BF463B;
 }
 
 .timeline-main:after {
@@ -90,7 +90,7 @@
   height: 9px;
   border-radius: 50%;
   background: #fff;
-  border: 1px solid #9600C6;
+  border: 1px solid #BF463B;
 }
 
 .timeline-main-between {
@@ -118,7 +118,7 @@
   height: 7px;
   border-radius: 50%;
   background: #fff;
-  border: 1px solid #9600C6;
+  border: 1px solid #BF463B;
 }
 
 .timeline-line:after {
@@ -132,7 +132,7 @@
   height: 7px;
   border-radius: 50%;
   background: #fff;
-  border: 1px solid #9600C6;
+  border: 1px solid #BF463B;
 }
 
 .timeline-author {
@@ -168,15 +168,15 @@
   margin: 30px 0;
   padding: 20px;
   max-height: 110px;
-  border: 1px solid #9600C6;
   border-radius: 20px;
-  background-color: #ffffffe0;
+  color: #fff;
+  background-color: #af6c54;
   -webkit-transition: .5s;
   transition: .5s;
 }
 
 .timeline-author-bio:hover {
-  border: 1px solid #ffa126;
+  border: 1px solid #F29544;
 }
 
 .timeline-author-info {
@@ -206,7 +206,7 @@
           flex-grow: 1;
   margin: 15px 0;
   padding: 5px 20px 20px 20px;
-  border: 1px solid #9600C6;
+  border: 1px solid #BF463B;
   border-radius: 20px;
   background-color: #fff;
   -webkit-transition: .5s;
@@ -214,7 +214,7 @@
 }
 
 .timeline-author-writings:hover {
-  border: 1px solid #ffa126;
+  border: 1px solid #F29544;
 }
 
 .timeline-author-writing {
@@ -264,7 +264,7 @@
     padding-top: 30px;
     width: 100%;
     height: 30px;
-    border-left: 1px solid #9600C6;
+    border-left: 1px solid #BF463B;
     background-color: #fff;
   }
   .timeline-period-show-space {
@@ -272,8 +272,8 @@
     margin: 0 -1px;
     width: 100%;
     height: 20px;
-    border-top: 1px solid #9600C6;
-    border-left: 1px solid #9600C6;
+    border-top: 1px solid #BF463B;
+    border-left: 1px solid #BF463B;
     border-top-left-radius: 20px;
     background-color: #fff;
   }
@@ -307,7 +307,7 @@
     height: 9px;
     border-radius: 50%;
     background: #fff;
-    border: 1px solid #9600C6;
+    border: 1px solid #BF463B;
   }
   .timeline-period-between {
     margin: 0;

@@ -5,7 +5,7 @@ html
     margin: 0 auto
     font-size: 24px
     color: $black
-    background-color: rgba($yellow, 0.2)
+    background-color: $cream-light
 .stop-scrolling
     padding-right: 17px
     overflow: hidden
@@ -57,8 +57,9 @@ html
     margin: 0
     padding: 30px 30px 15px 30px
     height: 100%
-    border-radius: 20px
-    background: linear-gradient(90deg, rgba($purple, 1) 0%, rgba($magenta, 1) 20%, rgba($orange, 1) 100%)
+    border: 20px solid $orange-light
+    border-radius: 30px
+    background: $orange
     &-left
         display: flex
         flex-direction: column
@@ -89,6 +90,7 @@ html
 @media screen and (max-width: 480px)
     .title
         padding: 20px 20px 10px 20px
+        border-width: 10px
         &-text
             white-space: pre-line
             font-size: 30px

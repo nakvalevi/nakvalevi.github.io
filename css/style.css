@@ -35,8 +35,8 @@ html {
 .body {
   margin: 0 auto;
   font-size: 24px;
-  color: #313131;
-  background-color: rgba(255, 227, 56, 0.2);
+  color: #004d4d;
+  background-color: #FBECDE;
 }
 
 .stop-scrolling {
@@ -107,9 +107,9 @@ html {
   margin: 0;
   padding: 30px 30px 15px 30px;
   height: 100%;
-  border-radius: 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#9600c6), color-stop(20%, #b500c5), to(#ffa126));
-  background: linear-gradient(90deg, #9600c6 0%, #b500c5 20%, #ffa126 100%);
+  border: 20px solid #f8b172;
+  border-radius: 30px;
+  background: #F29544;
 }
 
 .title-left {
@@ -149,6 +149,7 @@ html {
 @media screen and (max-width: 480px) {
   .title {
     padding: 20px 20px 10px 20px;
+    border-width: 10px;
   }
   .title-text {
     white-space: pre-line;
@@ -185,14 +186,14 @@ p:last-child {
 }
 
 .purple {
-  color: #9600C6;
+  color: #BF463B;
   font-family: "BPG Nino Mkhedruli", sans-serif;
 }
 
 .PURPLE {
   margin: 5px 0;
   font-size: 22px;
-  color: #9600C6;
+  color: #BF463B;
   font-family: BPG Nino Mtavruli, sans-serif;
 }
 
@@ -207,7 +208,7 @@ p:last-child {
 
 a {
   text-decoration: none;
-  color: #313131;
+  color: #004d4d;
 }
 
 ul {
@@ -222,7 +223,7 @@ ul:last-child {
 
 li {
   line-height: 1.5;
-  color: #9600C6;
+  color: #BF463B;
 }
 
 button {
@@ -309,8 +310,7 @@ input {
           align-items: stretch;
   width: 100%;
   height: 45px;
-  background: -webkit-gradient(linear, left top, right top, from(#9600c6), color-stop(20%, #b500c5), to(#ffa126));
-  background: linear-gradient(90deg, #9600c6 0%, #b500c5 20%, #ffa126 100%);
+  background: #af6c54;
 }
 
 .navbar-container {
@@ -392,8 +392,8 @@ input {
 .navbar-anchors {
   z-index: 98;
   margin-top: -45px;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(150, 0, 198, 0.8)), color-stop(20%, rgba(181, 0, 197, 0.8)), to(rgba(255, 161, 38, 0.8)));
-  background: linear-gradient(90deg, rgba(150, 0, 198, 0.8) 0%, rgba(181, 0, 197, 0.8) 20%, rgba(255, 161, 38, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(191, 70, 59, 0.8)), color-stop(20%, rgba(166, 92, 65, 0.8)), to(rgba(242, 149, 68, 0.8)));
+  background: linear-gradient(90deg, rgba(191, 70, 59, 0.8) 0%, rgba(166, 92, 65, 0.8) 20%, rgba(242, 149, 68, 0.8) 100%);
   -webkit-transition: 1.5s;
   transition: 1.5s;
 }
@@ -471,8 +471,8 @@ input {
     width: 100%;
     height: 1px;
     border: none;
-    background: -webkit-gradient(linear, left top, right top, from(#9600c6), color-stop(20%, #b500c5), to(#ffa126));
-    background: linear-gradient(90deg, #9600c6 0%, #b500c5 20%, #ffa126 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#bf463b), color-stop(20%, #a65c41), to(#f29544));
+    background: linear-gradient(90deg, #bf463b 0%, #a65c41 20%, #f29544 100%);
   }
   .navbar {
     z-index: 98;
@@ -516,8 +516,8 @@ footer {
   text-align: center;
   font-size: 18px;
   color: #fff;
-  background: -webkit-gradient(linear, left top, right top, from(#9600c6), color-stop(20%, #b500c5), to(#ffa126));
-  background: linear-gradient(90deg, #9600c6 0%, #b500c5 20%, #ffa126 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#bf463b), color-stop(20%, #a65c41), to(#f29544));
+  background: linear-gradient(90deg, #bf463b 0%, #a65c41 20%, #f29544 100%);
   font-family: BPG Nino Mtavruli Bold, sans-serif;
 }
 
@@ -579,7 +579,7 @@ footer {
   width: 100%;
   height: 60px;
   line-height: 2;
-  border: 1px solid #9600C6;
+  border: 1px solid #BF463B;
   border-radius: 20px;
   font-family: BPG Nino Mtavruli, sans-serif;
 }
@@ -644,8 +644,8 @@ footer {
   z-index: 1;
   position: relative;
   border-radius: 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#9600c6), color-stop(20%, #b500c5), to(#ffa126));
-  background: linear-gradient(90deg, #9600c6 0%, #b500c5 20%, #ffa126 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#bf463b), color-stop(20%, #a65c41), to(#f29544));
+  background: linear-gradient(90deg, #bf463b 0%, #a65c41 20%, #f29544 100%);
 }
 
 .author-img {
@@ -663,8 +663,8 @@ footer {
   padding: 50px 30px 10px 30px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#9600c6), color-stop(20%, #b500c5), to(#ffa126));
-  background: linear-gradient(90deg, #9600c6 0%, #b500c5 20%, #ffa126 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#bf463b), color-stop(20%, #a65c41), to(#f29544));
+  background: linear-gradient(90deg, #bf463b 0%, #a65c41 20%, #f29544 100%);
 }
 
 .author-writings:before {
@@ -737,8 +737,8 @@ footer {
   z-index: 1;
   position: relative;
   border-radius: 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#9600c6), color-stop(20%, #b500c5), to(#ffa126));
-  background: linear-gradient(90deg, #9600c6 0%, #b500c5 20%, #ffa126 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#bf463b), color-stop(20%, #a65c41), to(#f29544));
+  background: linear-gradient(90deg, #bf463b 0%, #a65c41 20%, #f29544 100%);
 }
 
 .writing-info {
@@ -751,8 +751,8 @@ footer {
   padding: 50px 30px 30px 30px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#9600c6), color-stop(20%, #b500c5), to(#ffa126));
-  background: linear-gradient(90deg, #9600c6 0%, #b500c5 20%, #ffa126 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#bf463b), color-stop(20%, #a65c41), to(#f29544));
+  background: linear-gradient(90deg, #bf463b 0%, #a65c41 20%, #f29544 100%);
 }
 
 .writing-info:before {
@@ -804,8 +804,8 @@ footer {
   z-index: 1;
   position: relative;
   border-radius: 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#9600c6), color-stop(20%, #b500c5), to(#ffa126));
-  background: linear-gradient(90deg, #9600c6 0%, #b500c5 20%, #ffa126 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#bf463b), color-stop(20%, #a65c41), to(#f29544));
+  background: linear-gradient(90deg, #bf463b 0%, #a65c41 20%, #f29544 100%);
   cursor: pointer;
 }
 
@@ -855,8 +855,8 @@ footer {
   padding: 50px 30px 30px 30px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#9600c6), color-stop(20%, #b500c5), to(#ffa126));
-  background: linear-gradient(90deg, #9600c6 0%, #b500c5 20%, #ffa126 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#bf463b), color-stop(20%, #a65c41), to(#f29544));
+  background: linear-gradient(90deg, #bf463b 0%, #a65c41 20%, #f29544 100%);
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
   -webkit-transition: .5s;
@@ -888,7 +888,7 @@ footer {
 }
 
 .writing-characters ul span {
-  color: #313131;
+  color: #004d4d;
 }
 
 .writing-dictionary {
@@ -908,7 +908,7 @@ footer {
 
 .na {
   text-align: center;
-  color: rgba(150, 0, 198, 0.4);
+  color: rgba(191, 70, 59, 0.4);
   font-family: BPG Nino Mtavruli Bold, sans-serif;
 }
 
@@ -964,8 +964,8 @@ footer {
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: -webkit-gradient(linear, left top, right top, from(#9600c6), color-stop(20%, #b500c5), to(#ffa126));
-  background: linear-gradient(90deg, #9600c6 0%, #b500c5 20%, #ffa126 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#bf463b), color-stop(20%, #a65c41), to(#f29544));
+  background: linear-gradient(90deg, #bf463b 0%, #a65c41 20%, #f29544 100%);
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
   -webkit-transition: .5s;
